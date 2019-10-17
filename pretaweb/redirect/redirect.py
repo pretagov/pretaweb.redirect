@@ -1,8 +1,7 @@
 """Redirector, a folder-like Zope product that redirects the HTTP client
 to a different URL.
 
-Copyright (c) 1999-2001 by Alexander Staubo <earlybird@byzantine.no>
-Contributions by Dylan Jay <djay@slarken.org.au>
+Copyright (c) 1999-2001 by Dylan Jay <software@pretaweb.com>
 
 See README.txt for more information.
 """
