@@ -8,18 +8,10 @@ See README.txt for more information.
 
 __version__ = "1.2.1"
 
-from Globals import Persistent, HTMLFile, HTML, MessageDialog, DTMLFile
+from App.special_dtml import HTMLFile, DTMLFile
 from AccessControl.Role import RoleManager
-import Acquisition
-import ExtensionClass
-import sys
-import string
-import OFS
-import Globals
-import time
-import copy
 import re
-import urlparse
+from urllib.parse import urlparse
 from AccessControl.SecurityInfo import ClassSecurityInfo
 from OFS.SimpleItem import SimpleItem
 from OFS.ObjectManager import ObjectManager
