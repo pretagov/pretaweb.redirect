@@ -26,6 +26,7 @@ setup(name='pretaweb.redirect',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'six'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
