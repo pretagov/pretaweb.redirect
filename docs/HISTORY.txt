@@ -5,3 +5,4 @@ Changelog
 -------------------
 
 - Initial release
+- Add Python3 support [instification]
