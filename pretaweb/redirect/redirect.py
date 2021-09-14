@@ -156,7 +156,7 @@ class Redirector(ObjectManager):
         path = '/'.join(request['traverse_subpath'])
         url = self.redirect(domain, path, request['QUERY_STRING'])
         if url:
-            request.response.redirect(url)
+            request.response.redirect(url, status="301")
         else:
             request.response.setStatus(404, "Not Found")
 
