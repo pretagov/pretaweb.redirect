@@ -88,11 +88,11 @@ class Redirector(ObjectManager):
                 continue
             if line[0] == '=':
                 line = line[1:].strip()
-                parts = re.split(r"(?<!\\)\s*",line) #split on non escaped whitespace
+                parts = re.split(r"(?<!\\)\s+",line) #split on non escaped whitespace
                 if len(parts) == 2:
                     tests.append( parts )
 
-            parts = re.split(r"(?<!\\)\s*",line) #split on non escaped whitespace
+            parts = re.split(r"(?<!\\)\s+",line) #split on non escaped whitespace
             if len(parts) == 2:
                 match, url = parts
                 try:
