@@ -6,3 +6,4 @@ Changelog
 
 - Initial release
 - Make redirects permanent [instification]
+- Add Python3 support [instification]
