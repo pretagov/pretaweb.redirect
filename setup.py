@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.0.1'
 
 
 
@@ -21,7 +21,7 @@ setup(name='pretaweb.redirect',
       url='http://svn.plone.org/svn/collective/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['pretaweb'],
+      namespace_packages=['pretaweb', ],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

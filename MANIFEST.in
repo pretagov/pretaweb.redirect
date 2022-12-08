@@ -1,2 +1,4 @@
 graft docs
+graft pretaweb/
+include pretaweb.redirect-configure.zcml
 global-exclude *.pyc
