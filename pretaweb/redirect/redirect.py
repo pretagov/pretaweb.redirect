@@ -9,7 +9,7 @@ See README.txt for more information.
 __version__ = "1.2.1"
 
 from App.special_dtml import HTMLFile, DTMLFile
-from AccessControl.Role import RoleManager
+from AccessControl.rolemanager import RoleManager
 import re
 from six.moves.urllib.parse import urlparse
 from AccessControl.SecurityInfo import ClassSecurityInfo
